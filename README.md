@@ -29,4 +29,29 @@ npm run e2e
 npm test
 ```
 
+## Generate Components
+
+VueBoilerplate is using plop to generate templates.
+
+To create a component simple run:
+
+### Not specifying the component name:
+``` bash
+npm run generate component
+```
+
+Plop will ask you for the component name:
+``` bash
+> ? What is your component name?
+```
+
+### Specifying the component name:
+``` bash
+npm run generate component "YourComponentName"
+```
+
+> Note: Components are located under app/components
+
+
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
