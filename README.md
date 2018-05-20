@@ -33,7 +33,7 @@ npm test
 
 VueBoilerplate is using plop to generate templates.
 
-To create a component simple run:
+To create a component or a container simple run:
 
 ### Not specifying the component name:
 ``` bash
@@ -52,6 +52,22 @@ npm run generate component "YourComponentName"
 
 > Note: Components are located under app/components
 
+### Not specifying the container name:
+``` bash
+npm run generate container
+```
+
+Plop will ask you for the container name:
+``` bash
+> ? What is your container name?
+```
+
+### Specifying the container name:
+``` bash
+npm run generate container "YourContainerName"
+```
+
+> Note: Container are located under app/containers
 
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

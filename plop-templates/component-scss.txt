@@ -1,1 +1,1 @@
-// Scss module for: {{name}}
+// Scss Component for: {{name}}
